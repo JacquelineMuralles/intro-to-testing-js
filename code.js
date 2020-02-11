@@ -8,3 +8,10 @@ const helloWorld = function() {
 function sayHello(input){
     return input === undefined || input === "Boolean" ? "Hello, World!" : ("Hello, " + input + "!")
 }
+
+function isFive(x) {
+    return Boolean (x) || x === 5;
+}
+function isEven(x) {
+    return parseFloat(x) % 2 === 0;
+}
