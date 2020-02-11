@@ -15,3 +15,6 @@ function isFive(x) {
 function isEven(x) {
     return parseFloat(x) % 2 === 0;
 }
+function isVowel(x) {
+    return "AEIOUaeiou".indexOf(x) !== -1;
+}
