@@ -2,9 +2,9 @@
 
 const helloWorld = function() {
     return "Hello, World!";
-}
+};
 
 
-function sayHello(){
-    return ""
+function sayHello(input){
+    return input === undefined || input === "Boolean" ? "Hello, World!" : ("Hello, " + input + "!")
 }
