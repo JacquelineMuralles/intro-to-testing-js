@@ -18,3 +18,6 @@ function isEven(x) {
 function isVowel(x) {
     return "AEIOUaeiou".indexOf(x) !== -1;
 }
+function add(a,b) {
+    return a + b;
+}
